@@ -5,16 +5,17 @@
 ////////////////
 
 // Status: Selesai
-// Waktu: 09/11/2026
+// Tanggal: 09/11/2026
 // Pembuat: Fathan-27
+// Github: https://github.com/fathan-27
 
 // Siapa pun yang menggunakan kode ini, cobalah untuk memodifikasinya.
 // Jangan terpaku pada kode templat agar kemampuan kalian terus berkembang.
 
 // CATATAN:
 // - Menggunakan LED merah (tegangan maju sekitar 1,7–2,1 volt).
-// - Papan: Arduino UNO R3.
 // - Nilai PWM Arduino UNO berada pada rentang 0–255 dan mengatur Duty Cycle.
+// - Untuk Mikrokontroller atau alat lain harap menyesuaikan
 
 // Variabel
 const byte led_pin = 9; // Pin PWM untuk LED
@@ -27,7 +28,7 @@ const char down = -1; // Arah turun
 byte current_value = analog_value1; // Nilai PWM saat ini
 char direction = up; // Arah perubahan nilai
 
-// Persiapan
+// Persiapan/Pengaturan
 void setup() {
     pinMode(led_pin, OUTPUT);
 }
