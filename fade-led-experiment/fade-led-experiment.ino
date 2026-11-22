@@ -1,10 +1,8 @@
-
 // Information
 // Name: Fade LED Experiment
 // Status: Completed
-// Date: 11/09/2026
-// Creator: fathan-27
-// Github : https://github.com/fathan-27
+// Version: 1.0 (22/11/2026)
+// Github Repository: https://github.com/fathan-arsyad/fade-led-experiment.git 
 
 // NOTE:
 // - Anyone using this code should try to modify it.
